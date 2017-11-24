@@ -1,0 +1,36 @@
+# maven ignore
+target/
+*.war
+*.zip
+*.tar
+*.tar.gz
+bin/
+#gradle ignore
+.gradle
+build/
+# eclipse ignore
+.settings/
+.project
+.classpath
+.externalToolBuilers/
+.factorypath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+.springBeans
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+/ciyun-report-receiver/.project
+/ciyun-report-receiver/.classpath
