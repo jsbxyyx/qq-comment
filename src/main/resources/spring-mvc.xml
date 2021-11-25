@@ -18,6 +18,8 @@
 	<context:component-scan base-package="org.xxz.controller" />
 	<mvc:annotation-driven/>
 
+	<mvc:default-servlet-handler/>
+	
 	<!-- 静态资源放行 -->
 	<mvc:resources location="/static/" mapping="/static/**"></mvc:resources>
 
